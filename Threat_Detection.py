@@ -377,7 +377,7 @@ def displayString(mframe,mposition,dmesg):
             dim = (640,480)           
 
 def gestproc():
-
+	'''This function will run the gesture builder'''
     global gesturecon
     global isfinaloutput
     global gesturevalue
