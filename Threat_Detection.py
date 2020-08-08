@@ -31,7 +31,7 @@ isongoinggesture = False
 iswaitgest = False
 
 def tensorproc():
-    #Output
+    #Output of the object detection
     global detectobject
     global mdetectobject
 
