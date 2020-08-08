@@ -471,6 +471,7 @@ class myThread2(threading.Thread):
       print ("Exiting " + self.name)
 
 if __name__ == '__main__':
+	'''This will run the whole program'''
     thread2 = myThread2(2, "Thread-2", 1)
     thread2.start()
     tensorproc()
